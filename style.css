@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* GLOBAL */
+.btn {
+  padding: 12px 36px;
+  background: #21b573;
+  border-radius: 33px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+}
+
+.signin-btn{
+  padding: 0px 20px;
+  background: #21b473;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 33px;
+  width: 120px;
+}
+
+.line {
+  height: 5px;
+  width: 90px;
+  background: orangered;
+  border-radius: 10px;
+}
+
+
+/* HEADER SECTION */
+header {
+  width: 100%;
+  height: 676px;
+  background-color: #F0FFf0;
+}
+
+
+/* LOGO SECTION */
+.logo {
+  width: 198px;
+  height: 59px;
+}
+
+nav a {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+/* BANNER SECTION */
+
+#banner {
+  padding: 0px 20px;
+  margin-top: 120px;
+}
+
+#banner h1 {
+  font-size: 50px;
+  line-height: 1.6;
+}
+
+#banner p {
+  font-size: 16px;
+}
+
+
+/* WHAT WE DONE */
+
+.what-we-done {
+  margin-top: 100px;
+}
+
+.what-we-done img {
+  width: 100px;
+}
+
+.we-work-icon {
+  background: #F8FFFB;
+  border-radius: 10px;
+  height: 250px;
+  padding: 139px 10px;
+}
+
+/* COURSES */
+.courses {
+  margin-top: 200px;
+}
+
+.card {
+  border-radius: 18px;
+}
+
+.card span img{
+  width: 24px;
+  height: 24px;
+}
+
+/* TESTIMONIAL */
+
+.testimonial {
+  margin-top: 150px;
+}
+
+.man {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.testimonialBox {
+  height: 400px;
+}
+.testimonial p {
+  line-height: 1.7;
+}
+
+/* FOOTER SECTION */
+footer {
+  padding: 50px 100px;
+  background: #282531
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 1.9;
+  
+}
+
+footer ul a {
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 1px;
+  text-decoration: none !important;
+  line-height: 1.9;
+}
+
+
+/* MEDIA QUERIES */
+
+@media(max-width: 768px) {
+  header {
+    margin-bottom: ;
+  }
+
+  .signin-btn {
+    display: inline;
+  }
+  #banner {
+    margin-top: 5px;
+  }
+  #banner h1 {
+    font-size: 30px;
+    line-height: 1.5;
+  }
+
+  #banner p {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  .img-fluid{
+    margin-top: 10px;
+  }
+  .banner {
+    margin-top: 0;
+  }
+  .what-we-done {
+    margin-top: 10px;
+  }
+
+  .we-work-icon {
+    margin-top: 30px
+  }
+
+  .we-work-icon img {
+    width: 50px;
+  }
+
+  .man-pic-box {
+    justify-content: center !important;
+  }
+
+  .line {
+    margin-bottom: 30px;
+  }
+  .testimonial p {
+    justify-content: start;
+    margin-bottom: 100px;
+    padding: 0;
+  }
+
+  .testimonial-paragraph-box {
+    margin-bottom: 10px;
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .btn {
+    padding: 8px 15px;
+  }
+
+  .footer-row {
+    text-align: center;
+  }
+
+  .footer-row .footer-paragraph{
+    width: 100% !important;
+  }
+}
+
+
+@media(min-width:768px) and (max-width: 1188px) {
+  #banner h1 {
+    line-height: 1.2;
+  }
+
+  span p {
+    font-size: 12px;
+  }
+}
+
+
+@media(min-width: 576px) and (max-width: 992px) {
+  .btn {
+    font-size: 12px;
+  }
+
+  .signin-btn {
+    padding: 0 8px;
+    width: 80px;
+  }
+
+  .signin-btn a{
+    font-size: 14px;
+  }
+
+  span {
+    flex-direction: column;
+  }
+
+  span p {
+    font-size: 12px;
+  }
+}
+
+
+
+
+
